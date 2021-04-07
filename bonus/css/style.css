@@ -1,0 +1,89 @@
+/* common */
+body {
+    padding-top: 100px;
+    background-color: skyblue;
+}
+
+.container {
+    height: 50px;
+}
+
+.black {
+    background-color: black;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+.pink {
+    background-color: #eec6a3;
+}
+
+.white {
+    background-color: white;
+}
+
+.sky {
+    background-color: skyblue;
+}
+
+/* /common */
+
+img {
+    width: 100%;
+}
+
+#line {
+    border-bottom: 5px solid black;
+}
+
+.top {
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+}
+
+.bottom {
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+}
+
+.brd {
+    border-right: 2px solid black;
+    border-radius: 10%;
+}
+
+.first-row {
+    height: 50%;
+    border-bottom: 2px solid black;
+}
+
+.first-row::after,
+.second-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.second-row {
+    height: 50%;
+    border-top: 2px solid black;
+}
+
+.square {
+    float: left;
+    width: 20%;
+    height: 100%;
+    border-right: 2px solid black;
+}
+.rectangle {
+    float: left;
+    width: 60%;
+    height: 100%;
+    border-right: 4px solid black;
+    border-left: 2px solid black;
+}
