@@ -1,15 +1,12 @@
 /* debug */
 .debug .container {
     min-height: 100px;
-    border: 1px solid blue;
 }
 
 .debug [class *= "col-"] {
     height: 200px;
     background-color: #ffc0cb;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
 }
 
 /* /debug */
