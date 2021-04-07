@@ -1,0 +1,9 @@
+[class *= "col-"] {
+    text-align: center;
+    line-height: 200px;
+}
+
+#coral {
+    border: 1px solid white;
+    background-color: #f07f80;
+}
