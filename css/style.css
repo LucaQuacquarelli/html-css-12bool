@@ -3,7 +3,18 @@
     line-height: 200px;
 }
 
-#coral {
+.special {
+    height: 100%;
+    padding: 5px;
+}
+
+.two-row {
+    line-height: normal;
+    padding: 85px 20px;
+}
+
+.coral {
+    height: 100%;
     border: 1px solid white;
     background-color: #f07f80;
 }

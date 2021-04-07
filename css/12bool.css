@@ -3,7 +3,7 @@
     min-height: 100px;
 }
 
-.debug [class *= "col-"] {
+.debug [class *= "col-"]:not(.coral) {
     height: 200px;
     background-color: #ffc0cb;
     border: 1px solid black;
